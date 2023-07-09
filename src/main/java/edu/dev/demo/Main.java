@@ -30,7 +30,7 @@ public class Main {
         log.info("{} as a JSON is: {}", jerry.name, getCatSerialize(jerry));
 
         var garfieldAsJson = "{\"name\":\"Garfield\",\"gender\":\"Male\",\"favoriteActivities\":[\"Eats Lasagna, Sleeps, Causes disasters\"]}";
-        var tomAsJson = "{\"name\":\"Jerry\",\"gender\":\"Male\",\"favoriteActivities\":[\"Try to eat Jerry, Try to catch Jerry, Causes disasters\"]}";
+        var tomAsJson = "{\"name\":\"Tom\",\"gender\":\"Male\",\"favoriteActivities\":[\"Try to eat Jerry, Try to catch Jerry, Causes disasters\"]}";
 
         log.info("{} as an Object is: {}", garfield.name, getCatDeserialize(garfieldAsJson));
         log.info("{} as an Object is: {}", jerry.name, getCatDeserialize(tomAsJson));
