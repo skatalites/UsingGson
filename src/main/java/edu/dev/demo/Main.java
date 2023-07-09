@@ -24,7 +24,7 @@ public class Main {
     public static void main(String[] args) {
 
         var garfield = new Cat("Garfield", "Male", List.of("Eats Lasagna, Sleeps, Causes disasters"));
-        var jerry = new Cat("Jerry", "Male", List.of("Try to eat Jerry, Try to catch Jerry, Causes disasters"));
+        var jerry = new Cat("Tom", "Male", List.of("Try to eat Jerry, Try to catch Jerry, Causes disasters"));
 
         log.info("{} as a JSON is: {}", garfield.name, getCatSerialize(garfield));
         log.info("{} as a JSON is: {}", jerry.name, getCatSerialize(jerry));
